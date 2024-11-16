@@ -1,0 +1,32 @@
+.file-upload {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.upload-area {
+    padding: 20px;
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.upload-area input[type="file"] {
+    display: none;
+}
+
+.upload-area p {
+    color: #777;
+    margin: 10px 0;
+}
+
+.upload-status {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+}
